@@ -1,0 +1,28 @@
+section {
+   margin: 20px 0;
+   display: flex;
+   color: $couleur-paragraphe;
+   font-size: 1rem;
+   font-family: $font;
+   article {
+      padding: 0 20px;
+      flex: 2;
+      a {
+         color: $couleur-header;
+         text-decoration: none;
+         &:hover {
+            text-decoration: underline;
+         }
+         // end hover
+      }
+      // end a
+   }
+   // end article
+   aside {
+      flex: 1;
+      padding: 0 20px;
+   }
+}
+
+// end section
+

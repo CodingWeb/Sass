@@ -1,0 +1,21 @@
+//import variables
+@import "abstracts/variables";
+//import normalize
+@import "normalize.css/normalize";
+//import diférent iconne
+@import "font-wesome/font-awesome";
+
+//import styles
+@import "layout/main";
+@import "layout/header";
+@import "layout/nav";
+@import "layout/container";
+@import "layout/footer";
+
+//import bouton
+@import "components/button";
+
+
+
+
+

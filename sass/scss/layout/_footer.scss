@@ -1,0 +1,23 @@
+footer {
+  background: linear-gradient(
+                  darken($couleur-du-titre, 40%),
+                  $couleur-du-titre);
+  padding: $padding;
+  p {
+    color: $white;
+    font-size: 0.75rem;
+    font-style: italic;
+    a {
+      color: #DADBDF;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+      // end hover
+    }
+    // end a
+  }
+  // end p
+}
+
+// end footer

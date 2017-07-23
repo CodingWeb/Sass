@@ -1,0 +1,98 @@
+body {
+  padding: 20px 0;
+  background-color: #DADBDF;
+  background-image: url("css-27192.svg");
+  background-attachment: fixed; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid 3px #699; }
+
+header ul, nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+header {
+  background: linear-gradient(#c2d6d6, #699);
+  padding: 20px;
+  display: flex; }
+  header h1 {
+    font-family: source-serif-pro, Georgia, "Times New Roman", Times, serif;
+    font-size: 2rem;
+    color: #C69;
+    flex: 10; }
+  header ul {
+    flex: 2; }
+    header ul li {
+      display: inline-block; }
+
+nav {
+  background-color: #C69; }
+  nav p {
+    text-align: right;
+    margin: 0;
+    padding: 20px; }
+  nav ul {
+    display: flex;
+    justify-content: flex-end; }
+    nav ul li a {
+      display: inline-block;
+      padding: 2px 20px;
+      text-decoration: none;
+      color: #FFF;
+      font-size: 1rem;
+      font-family: source-serif-pro, Georgia, "Times New Roman", Times, serif;
+      font-weight: bold; }
+      nav ul li a:hover {
+        background-color: #6B717F; }
+
+section {
+  margin: 20px 0;
+  display: flex;
+  color: #6B717F; }
+  section article {
+    padding: 0 20px;
+    flex: 2; }
+    section article p {
+      font-size: 1rem; }
+      section article p a {
+        color: #699;
+        text-decoration: none; }
+        section article p a:hover {
+          text-decoration: underline; }
+  section aside {
+    flex: 1;
+    padding: 0 20px; }
+
+footer {
+  padding: 20px;
+  background: linear-gradient(#C69, #73264d); }
+  footer p {
+    color: #FFF;
+    font-size: 0.75rem;
+    font-style: italic; }
+    footer p a {
+      color: #DADBDF;
+      text-decoration: none; }
+      footer p a:hover {
+        text-decoration: underline; }
+
+.btn {
+  display: inline-block;
+  border: solid 2px #699;
+  padding: 5px;
+  background-color: #FFF;
+  color: #699;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center; }
+  .btn:hover {
+    background-color: #699;
+    color: #FFF; }
+
+/*# sourceMappingURL=app.css.map */

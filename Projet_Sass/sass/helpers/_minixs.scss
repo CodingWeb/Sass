@@ -1,6 +1,6 @@
 // Mixins Radius
 @mixin borderRadius($radius: $defaultBorderRadius){
-   border-radius: $radius;
-   -webkit-border-radius: $radius;
-   -moz-border-radius: $radius;
+   border-radius: unitParametre($radius);
+   -webkit-border-radius: unitParametre($radius);
+   -moz-border-radius: unitParametre($radius);
 }

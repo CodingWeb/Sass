@@ -14,7 +14,10 @@ $font-size-small: $font-size-regular * 0.75;
 $font-size-big: $font-size-regular * 2;
 
 //layout defaults
-$defaultBorderRadius: 5px;
+$defaultBorderRadius: 5;
 
 //font-awesome custom
 $fa-font-path: "fonts" !default;
+
+//Defaults uniter
+$defaultUnit: 'px';

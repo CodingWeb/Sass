@@ -24,9 +24,9 @@
         @extend %btn;
     }
     li:first-child a{
-        border-radius: 5px 0 0 5px;
+       @include borderRadius(5 0 0 5);
     }
     li:last-child a {
-        border-radius: 0 5px 5px 0;
+       @include borderRadius(0 5 5 0);
     }
 }

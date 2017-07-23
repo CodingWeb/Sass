@@ -2812,7 +2812,9 @@ footer {
     color: #FFF; }
 
 .button a {
-  border-radius: 5px; }
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; }
 
 .buttonGroup {
   font-size: 0; }

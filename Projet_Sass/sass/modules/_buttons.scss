@@ -19,6 +19,7 @@
     border-radius: 5px;
 }
 .buttonGroup{
+   font-size: 0;
     a{
         @extend %btn;
     }

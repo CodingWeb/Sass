@@ -2814,9 +2814,11 @@ footer {
 .button a {
   border-radius: 5px; }
 
-.buttonGroup li:first-child a {
-  border-radius: 5px 0 0 5px; }
-.buttonGroup li:last-child a {
-  border-radius: 0 5px 5px 0; }
+.buttonGroup {
+  font-size: 0; }
+  .buttonGroup li:first-child a {
+    border-radius: 5px 0 0 5px; }
+  .buttonGroup li:last-child a {
+    border-radius: 0 5px 5px 0; }
 
 /*# sourceMappingURL=app.css.map */

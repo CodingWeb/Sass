@@ -2725,6 +2725,21 @@ body {
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.8);
   border: solid 3px #699; }
+  @media screen and (min-width: 368px) {
+    .wrapper {
+      max-width: 368px; } }
+  @media screen and (min-width: 468px) {
+    .wrapper {
+      max-width: 468px; } }
+  @media screen and (min-width: 768px) {
+    .wrapper {
+      max-width: 768px; } }
+  @media screen and (min-width: 1024px) {
+    .wrapper {
+      max-width: 1024px; } }
+  @media screen and (min-width: 1480px) {
+    .wrapper {
+      max-width: 1480px; } }
 
 header ul, nav ul {
   margin: 0;

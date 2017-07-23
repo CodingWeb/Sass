@@ -21,3 +21,12 @@ $fa-font-path: "fonts" !default;
 
 //Defaults uniter
 $defaultUnit: 'px';
+
+//breakpoints
+$breakpoints:(
+        "s":368px,
+        "ss":468px,
+        "sm":768px,
+        "md":1024px,
+        "xl":1480px
+);

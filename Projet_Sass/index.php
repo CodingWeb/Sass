@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="sass/app.css">
+    <link rel="stylesheet" href="sass/app/app.css">
 </head>
 <body>
 <div class="wrapper">
@@ -33,7 +33,7 @@
             <p>Eius ratione quam alias culpa corporis fuga voluptas, excepturi, delectus a sapiente maxime, consectetur rem tenetur officiis. Rem dolorum quaerat impedit, iusto eius voluptates, labore repellat, voluptas velit esse quasi.</p>
         </article>
         <aside>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vero dolorem ipsa excepturi vel nisi possimus porro nihil reiciendis voluptatem, delectus et deleniti velit maxime, doloremque earum blanditiis ab eius!
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vero dolorem ipsa excepturi vel nisi possimus porro nihil reiciendis voluptatem, delectus et deleniti velit maxime, doloremque earum blanditiis ab eius!</p>
         </aside>
     </section>
     <footer>

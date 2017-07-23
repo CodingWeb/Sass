@@ -1,6 +1,8 @@
 //import variables
 @import "helpers/variables";
 //import third party frameworks
+@import "layout/normalize";
+@import "font-awesome/font-awesome.css";
 
 //import styles
 @import "layout/main";
@@ -8,6 +10,5 @@
 @import "layout/nav";
 @import "layout/mainSection";
 @import "layout/footer";
-@import "layout/normalize";
 
 @import "modules/buttons";
